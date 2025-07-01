@@ -1,0 +1,46 @@
+#container{
+background-color: aqua;
+display: flex;
+
+}
+
+#content{
+background-color: rgb(179, 255, 0);
+display: flex;
+
+justify-content: space-between;
+align-items: center;
+
+margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+
+}
+
+#pheading{
+    font-weight: bolder;
+    font-size: larger;
+}
+
+#pbody{
+
+    font-style: italic;
+    
+}
+
+#container2{
+    
+    margin: auto;
+  text-align: center;
+  
+  padding: 10px;
+  background-color: rgb(236, 230, 230);
+}
+
+.displayitems{
+display:grid;
+
+grid-template-columns: 200px, 150px, 100px;
+
+}
